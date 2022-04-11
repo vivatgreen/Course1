@@ -10,21 +10,13 @@ public class Main {
         employeeBook.hireEmployee(new Employee("Виталий", "Тузовский", "Андреевич", 91_500, 4));
         employeeBook.hireEmployee(new Employee("Павел", "Ракчеев", "Анатольевич", 101_950, 5));
 
-//        employeeBook.printEmployees();
-
-//        System.out.println();
-//        employeeBook.fireEmployee("Павел", "Ракчеев", "Анатольевич", 5);
-//        employeeBook.printEmployees();
-
+       employeeBook.printEmployees();
+       System.out.println();
+       System.out.println(employeeBook.calculateTotalSalary());
+        System.out.println(employeeBook.employeeMaxSalary());
+        System.out.println(employeeBook.employeeMinSalary());
+        System.out.println(employeeBook.calculateAvarageSalary());
         employeeBook.printDepartmentEmployees();
-
-
-//        employeeBook.indexDepartmentSalary(50, 2);
-//       employeeBook.printDepartmentEmployees();
-
-
-//        employeeBook.indexSalary(50);
- //       employeeBook.printDepartmentEmployees();
 
     }
 }

@@ -2,6 +2,7 @@ package ru.skypro;
 
 public class EmployeeBook {
     private Employee[] employees;
+
     public EmployeeBook() {
         this.employees = new Employee[10];
     }
